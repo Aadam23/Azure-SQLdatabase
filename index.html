@@ -1,0 +1,62 @@
+<body>
+    <h1>Employee Management System</h1>
+
+    <!-- Add Employee Button -->
+    <button onclick="showAddForm()">Add Employee</button>
+
+    <div>
+        <h2>Employees</h2>
+        <table id="employeeTable">
+            <thead>
+                <tr>
+                    <th>Employee ID</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Job Title</th>
+                    <th>Salary</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Employee data will be populated here -->
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Add Employee Form -->
+    <div id="addForm" style="display: none;">
+        <h2>Add Employee</h2>
+        
+        <label for="addEmployeeID">EmployeeID:</label>
+        <input type="text" id="addEmployeeID" required>
+
+        <label for="addFirstName">First Name:</label>
+        <input type="text" id="addFirstName" required>
+        <label for="addLastName">Last Name:</label>
+        <input type="text" id="addLastName" required>
+        <label for="addJobTitle">Job Title:</label>
+        <input type="text" id="addJobTitle" required>
+        <label for="addSalary">Salary:</label>
+        <input type="number" id="addSalary" required>
+        <button id="addButton">Add</button>
+        <button onclick="cancelAdd()">Cancel</button>
+    </div>
+
+    <!-- Edit Employee Form -->
+    <div id="editForm" style="display: none;">
+        <h2>Edit Employee</h2>
+        <input type="hidden" id="editEmployeeId">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="editFirstName">
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="editLastName">
+        <label for="jobTitle">Job Title:</label>
+        <input type="text" id="editJobTitle">
+        <label for="salary">Salary:</label>
+        <input type="number" id="editSalary">
+        <button id="saveButton">Save</button>
+        <button onclick="cancelEdit()">Cancel</button>
+    </div>
+
+    <script src="script.js"></script> <!-- Link to your JavaScript file -->
+</body>
