@@ -9,11 +9,7 @@
 
 
 <h2>The Employee Management System</h2>
-<p <img width="1440" alt="Screenshot 2024-10-31 at 11 47 38 PM" src="https://github.com/user-attachments/assets/36440cf4-5dad-43e3-9da7-3f392b90ddd5"></p>
-
-<h2>Architecture Diagram</h2>
-<p align="center"><img width="956" alt="Screenshot 2024-09-18 at 3 47 14 PM" src="https://github.com/user-attachments/assets/46890678-90bc-41a7-a9f0-eaaf4f989a73"></p>
-
+<p align="center"><img width="1440" alt="Screenshot 2024-10-31 at 11 47 38 PM" src="https://github.com/user-attachments/assets/36440cf4-5dad-43e3-9da7-3f392b90ddd5"></p>
 <br>
 <br>
 
@@ -50,4 +46,4 @@ Setup Instructions
 
 4. **Create Tables and Insert Data**:
    - Run basic SQL commands to create tables and insert sample data.
-   <p <img width="808" alt="Screenshot 2024-10-31 at 11 25 11 PM" src="https://github.com/user-attachments/assets/a9a9ad0b-3af2-457b-abd3-26793a8596cf"></p>
+   <p align="center"><img width="808" alt="Screenshot 2024-10-31 at 11 25 11 PM" src="https://github.com/user-attachments/assets/a9a9ad0b-3af2-457b-abd3-26793a8596cf"></p>
